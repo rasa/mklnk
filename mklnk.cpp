@@ -40,6 +40,10 @@ filename.exe	"Link Name"	"arguments"	"comments"	"c:\ex"		icon.ico	icon_index 	//
 
 */
 
+#ifdef _MSC_VER
+#pragma comment(lib, "ole32.lib")
+#endif
+
 #ifndef WIN32_LEAN_AND_MEAN
 # define WIN32_LEAN_AND_MEAN 1
 #endif
@@ -47,7 +51,7 @@ filename.exe	"Link Name"	"arguments"	"comments"	"c:\ex"		icon.ico	icon_index 	//
 // #define _WIN32_WINNT 0x501
 
 #include <windows.h>
-#include <atlbase.h> // required for Stackwalker
+//#include <atlbase.h> // required for Stackwalker
 
 #include <cstdio>
 #include <iostream>
