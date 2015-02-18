@@ -1,0 +1,29 @@
+# Microsoft Developer Studio Generated Dependency File, included by mklnk.mak
+
+.\mklnk.cpp : \
+	{$(INCLUDE)}"basetsd.h"\
+	{$(INCLUDE)}"guiddef.h"\
+	{$(INCLUDE)}"propidl.h"\
+	{$(INCLUDE)}"reason.h"\
+	{$(INCLUDE)}"shldisp.h"\
+	{$(INCLUDE)}"shobjidl.h"\
+	{$(INCLUDE)}"shtypes.h"\
+	{$(INCLUDE)}"specstrings.h"\
+	{$(INCLUDE)}"stralign.h"\
+	{$(INCLUDE)}"tvout.h"\
+	{$(INCLUDE)}"debug.h"\
+	{$(INCLUDE)}"getopt.h"\
+	{$(INCLUDE)}"optimize.h"\
+	{$(INCLUDE)}"shlink.h"\
+	{$(INCLUDE)}"stackwalker.h"\
+	{$(INCLUDE)}"systemmessage.h"\
+	{$(INCLUDE)}"version.hpp"\
+	".\version.h"\
+	{$(INCLUDE)}"ver_defaults.h"\
+	
+
+.\mklnk.rc : \
+	".\mklnk.ico"\
+	".\version.h"\
+	{$(INCLUDE)}"ver_defaults.h"\
+	

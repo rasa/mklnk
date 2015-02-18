@@ -1,10 +1,10 @@
 all:
-	$(CYGENV) nmake /f mklnk.mak CFG="mklnk - Win32 Release"	all
-	$(CYGENV) nmake /f mklnk.mak CFG="mklnk - Win32 Debug"		all
+	$(MAKE)/f mklnk.mak CFG="mklnk - Win32 Release"	all
+	$(MAKE)/f mklnk.mak CFG="mklnk - Win32 Debug"		all
 
 clean:
-	$(CYGENV) nmake /f mklnk.mak CFG="mklnk - Win32 Release"	clean
-	$(CYGENV) nmake /f mklnk.mak CFG="mklnk - Win32 Debug"		clean
+	$(MAKE)/f mklnk.mak CFG="mklnk - Win32 Release"	clean
+	$(MAKE)/f mklnk.mak CFG="mklnk - Win32 Debug"		clean
 
 realclean: clean
 	-cmd /c del /s *.bak
