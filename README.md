@@ -1,9 +1,11 @@
-mklnk 1.2 - Jul 19 2006
-Copyright (c) 2005-2006 Ross Smith II (http://smithii.com) All Rights Reserved
+# mklnk 
 
-------------------------------------------------------------------------------
+Make .lnk files
 
-Usage: mklnk [options] target.exe [link.lnk]
+## Usage
+
+````
+mklnk [options] target.exe [link.lnk]
 
  target.exe   Name of target, use quotes if it contains spaces
  link.lnk     Name of link, use quotes if it contains spaces
@@ -22,15 +24,13 @@ Options (defaults in parentheses):
 -t | --target-directory dir    Create link in directory 'dir' (.)
 -v | --version                 Show version and copyright and quit
 -? | --help                    Show this help message and quit
+````
 
-Examples:
+## Examples
 
+````
 mklnk -a "%HOMEDRIVE%%HOMEPATH%" %SystemRoot%\system32\cmd.exe "Command Prompt"
 mklnk -a "--login -i" -i C:\cygwin\cygwin.ico -s7 C:\cygwin\bin\bash.exe "Bash"
-
-------------------------------------------------------------------------------
-
-More Examples:
 
 mklnk -a /e,"%USERPROFILE%\Desktop" c:\windows\explorer.exe "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\Desktop"
 mklnk -a "%USERPROFILE%\My Documents\todo.txt" c:\windows\system32\notepad.exe "%USERPROFILE%\Start Menu\Programs\Startup\To Do List"
@@ -38,21 +38,25 @@ mklnk -a "%USERPROFILE%\My Documents\todo.txt" c:\windows\system32\notepad.exe "
 rem create a link named "Windows Backup Utility.lnk":
 
 mklnk -l FileDescription c:\windows\system32\ntbackup.exe
+````
 
-------------------------------------------------------------------------------
+## Contributing
 
-This program is free software; you can redistribute it and/or
-modify it under the terms of the GNU General Public License
-as published by the Free Software Foundation; either version 2
-of the License, or (at your option) any later version.
+To contribute to this project, please see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+## Bugs
 
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+To view existing bugs, or report a new bug, please see the [issues](/issues) page for this project.
 
-$Id$
+## License
+
+This project is [MIT licensed](LICENSE).
+
+## Changelog
+
+Please see [CHANGELOG.md](CHANGELOG.md) for the version history for this project.
+
+## Contact
+
+This project was originally developed by [Ross Smith II](mailto:ross@smithii.com).
+Any enhancements and suggestions are welcome.

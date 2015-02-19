@@ -1,15 +1,18 @@
-mklnk changelog
+## 1.3 (unreleased)
 
-Version 1.2 - 12 Jul 06:
+  * Updated to Visual Studio 2013
+  * Switch to MIT license
 
-	Standardized version information across all programs
+## 1.2 (12 Jul 06)
 
-Version 1.1 - 08 Apr 06:
+  * Standardized version information across all programs
 
-	Added .rc and .ico files
-	Improved build scripts
-	Updated documentation
+## 1.1 (08 Apr 06)
 
-Version 1.0 - 01 Mar 06:
+  * Added .rc and .ico files
+  * Improved build scripts
+  * Updated documentation
 
-	Initial release
+## 1.0 (01 Mar 06)
+
+  * Initial release
