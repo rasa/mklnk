@@ -1,3 +1,10 @@
+## 1.4 (27-Mar-2015)
+
+  * Executables signed with StartSSL code signing certificate
+  * Release zip files are gpg signed and sha256 hashed
+  * Standardize build scripts
+  * Update documentations
+
 ## 1.3 (22-Feb-2015)
 
   * Improve command line option processing
