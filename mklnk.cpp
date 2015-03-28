@@ -43,9 +43,6 @@ filename.exe	"Link Name"	"arguments"	"comments"	"c:\ex"		icon.ico	icon_index 	//
 //#include <conio.h>
 #include <stdlib.h>
 
-#include "Stackwalker.h"
-#include "Optimize.h"
-#include "debug.h"
 #include "getopt.h"
 #include "SystemMessage.h"
 
